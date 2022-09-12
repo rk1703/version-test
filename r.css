@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.about-container{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* justify-content: space-between; */
+    /* padding: 0 20px; */
+    padding-top: 2rem;
+    align-items: center;
+    background-color: #14213D;
+}
+
+.about-heading{
+    height: 10%;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #FCA311;
+}
+
+.about-content{
+    display: flex;
+    /* height: 90%; */
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-left{
+    background-image: url(./images/aboutImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    overflow: hidden;
+    /* margin: 0 2rem; */
+    margin-left: 4rem;
+    height: 90%;
+    flex: 1;
+}
+
+.about-right{
+    margin: 0 2rem;
+    padding: 1rem 3rem;
+    background-color: #ffffff00;
+    height: 90%;
+    flex: 1;
+    text-align: justify;
+    line-height: 27.5px;
+    font-size: 20px;
+}
+.mascot-container{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2rem; */
+    /* height: 100vh; */
+    /* justify-content: space-between; */
+    /* padding: 0 20px; */
+    padding: 0 20px;
+    padding-top: 2rem;
+    align-items: center;
+    background-color: #14213D;
+}
+
+.mascot-heading{
+    height: 10%;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: #FCA311;
+}
+
+.mascot-content{
+    display: flex;
+    height: 90%;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.mascot-left{
+    margin: 0 2rem;
+    padding: 1rem 2rem;
+    background-color: #ffffff00;
+    height: 90%;
+    flex: 1;
+    width: 50%;
+    text-align: justify;
+    line-height: 27.5px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.mascot-right{
+    margin: 0 2rem;
+    /* display: contents; */
+    width: 50%;
+    height: 90%;
+    flex: 1;
+}
+
+
+@media screen and (max-width: 799px) {
+    .about-content{
+        flex-direction: column;
+    }
+    .mascot-content{
+        flex-direction: column;
+    }
+}
